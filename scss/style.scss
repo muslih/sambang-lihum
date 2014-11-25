@@ -1,0 +1,45 @@
+@import 'lib/zeen';
+body {
+	font-family : 'arial', sans-serif; 
+	// 'Titillium Web' 
+	font-size : 14px;
+	font-weight : lighter;
+	// letter-spacing : -0,5px;	
+}
+
+
+#footeratas {
+
+	padding : 20px 0;
+	color : $putih;
+	background : #2a2a2a;
+}
+
+nav {
+	color :$putih;
+	background : $hijautua;
+	border-bottom : $orange solid 5px;
+
+	ul {
+		display: block;
+
+		li {			
+			display: inline-table;
+			list-style: none;
+			
+			a { 
+
+				color : $putih;
+				padding: 20px 15px;
+				text-decoration : none;
+				display: block;
+
+				&:hover {
+					background : $orange;
+
+				}
+			}			
+		}		
+	}
+}
+
