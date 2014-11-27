@@ -276,6 +276,11 @@ li {
   list-style: none;
 }
 
+/* line 19, ../scss/lib/_general.scss */
+p {
+  text-align: justify;
+}
+
 /* line 22, ../scss/lib/_zeen.scss */
 img {
   height: auto;
@@ -391,35 +396,48 @@ body {
 }
 
 /* line 11, ../scss/style.scss */
+article {
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+/* line 17, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
   color: #ffffff;
   background: #2a2a2a;
+  margin-top: 20px;
 }
 
-/* line 18, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
+#footerbawah {
+  background: #6db025;
+  padding: 20px 0;
+}
+
+/* line 33, ../scss/style.scss */
 nav {
   color: #ffffff;
   background: #3a9c53;
   border-bottom: #ec8621 solid 5px;
 }
-/* line 23, ../scss/style.scss */
+/* line 38, ../scss/style.scss */
 nav ul {
   display: block;
 }
-/* line 26, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 nav ul li {
   display: inline-table;
   list-style: none;
 }
-/* line 30, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 nav ul li a {
   color: #ffffff;
   padding: 20px 15px;
   text-decoration: none;
   display: block;
 }
-/* line 37, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 nav ul li a:hover {
   background: #ec8621;
 }
