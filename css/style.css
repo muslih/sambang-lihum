@@ -401,7 +401,7 @@ article {
   padding-right: 20px;
 }
 
-/* line 17, ../scss/style.scss */
+/* line 16, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
   color: #ffffff;
@@ -409,35 +409,36 @@ article {
   margin-top: 20px;
 }
 
-/* line 25, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
-  padding: 20px 0;
+  padding: 10px 0;
+  color: #ffffff;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 nav {
   color: #ffffff;
   background: #3a9c53;
   border-bottom: #ec8621 solid 5px;
 }
-/* line 38, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 nav ul {
   display: block;
 }
-/* line 41, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 nav ul li {
   display: inline-table;
   list-style: none;
 }
-/* line 45, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 nav ul li a {
   color: #ffffff;
   padding: 20px 15px;
   text-decoration: none;
   display: block;
 }
-/* line 52, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
 nav ul li a:hover {
   background: #ec8621;
 }
