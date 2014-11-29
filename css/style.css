@@ -267,16 +267,22 @@ h1, h2, a, ul, li, p {
 /* line 8, ../scss/lib/_general.scss */
 a {
   color: #ffffff;
+  font-size: 13px;
   text-decoration: none;
   display: block;
 }
 
-/* line 14, ../scss/lib/_general.scss */
+/* line 15, ../scss/lib/_general.scss */
 li {
   list-style: none;
 }
 
-/* line 19, ../scss/lib/_general.scss */
+/* line 21, ../scss/lib/_general.scss */
+ul, li {
+  display: block;
+}
+
+/* line 25, ../scss/lib/_general.scss */
 p {
   text-align: justify;
 }
@@ -391,7 +397,7 @@ img {
 /* line 2, ../scss/style.scss */
 body {
   font-family: 'arial', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: lighter;
 }
 
@@ -400,44 +406,113 @@ article {
   margin-bottom: 20px;
 }
 
-/* line 16, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
+.kotak-satu h2 {
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  background: #3a9c53;
+}
+/* line 30, ../scss/style.scss */
+.kotak-satu ul li a {
+  color: #727272;
+  margin: 10px 0;
+}
+/* line 34, ../scss/style.scss */
+.kotak-satu ul li a:hover {
+  color: #3a9c53;
+}
+
+/* line 43, ../scss/style.scss */
+a.tombol {
+  display: block;
+  background: #ec8621;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  float: right;
+  font-size: 10px;
+  font-style: italic;
+}
+
+/* line 57, ../scss/style.scss */
+.kotak-dua {
+  background: #eeeeee;
+  padding: 20px;
+  display: block;
+}
+/* line 65, ../scss/style.scss */
+.kotak-dua h2 {
+  color: #3a9c53;
+  font-size: 18px;
+  border-bottom: solid #ec8621 1px;
+  margin-bottom: 15px;
+}
+/* line 75, ../scss/style.scss */
+.kotak-dua ul li a {
+  color: #727272;
+}
+
+/* line 85, ../scss/style.scss */
+#kontak h2 {
+  font-size: 18px;
+}
+/* line 89, ../scss/style.scss */
+#kontak h1 {
+  font-size: 30px;
+}
+
+/* line 94, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
-  color: #ffffff;
+  color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
+/* line 101, ../scss/style.scss */
+#footeratas li {
+  margin: 3px 0;
+}
+/* line 104, ../scss/style.scss */
+#footeratas li a {
+  color: #e6e6e6;
+}
+/* line 106, ../scss/style.scss */
+#footeratas li a:hover {
+  color: #ec8621;
+}
 
-/* line 24, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 nav {
   color: #ffffff;
   background: #3a9c53;
   border-bottom: #ec8621 solid 5px;
 }
-/* line 36, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 nav ul {
   display: block;
 }
-/* line 39, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 nav ul li {
   display: inline-table;
   list-style: none;
 }
-/* line 43, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
 nav ul li a {
   color: #ffffff;
   padding: 20px 15px;
   text-decoration: none;
   display: block;
 }
-/* line 50, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 nav ul li a:hover {
   background: #ec8621;
 }

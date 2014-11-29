@@ -7,13 +7,19 @@ h1,h2,a,ul,li,p {
 
 a { 
 	color : $putih;
+	font-size: 13px;
 	text-decoration : none;
 	display : block;
 }
 
 li {
 	list-style : none;
+	
 
+}
+
+ul, li {
+display : block;	
 }
 
 p {

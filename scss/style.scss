@@ -2,7 +2,7 @@
 body {
 	font-family : 'arial', sans-serif; 
 	// 'Titillium Web' 
-	font-size : 14px;
+	font-size : 13px;
 	font-weight : lighter;
 	// letter-spacing : -0,5px;	
 }
@@ -13,12 +13,103 @@ article {
 	// padding-right : 20px;
 } 
 
+
+.kotak-satu {
+	
+
+	h2 {
+		color: $putih;
+		font-size: 13px;
+		text-align: center;
+		padding : 10px;
+		background : $hijautua;
+	}
+
+	ul {
+		li {
+			a {
+				color: $abuabu;
+				margin: 10px 0;
+
+				&:hover {
+					color: $hijautua;
+				}
+			}
+		}
+	}			
+
+}
+
+a.tombol {
+//		a {
+			display: block;
+			background : $orange;
+			color: $putih;
+			padding : 5px 10px;
+			margin-bottom : 20px;
+			float: right;
+			font-size: 10px;
+			font-style: italic;			
+//		}							
+}	
+
+
+.kotak-dua {
+	background : #eeeeee;
+	padding : 20px;
+	// margin-top : 20px;
+	display : block;
+
+	
+
+	h2 {
+		color: $hijautua;
+		font-size: 18px;
+		border-bottom : solid $orange 1px;
+		margin-bottom : 15px;
+	}		
+
+	
+	ul {
+		li { 
+			a {
+				color : $abuabu;
+			}
+		}
+	}			
+
+}
+
+
+#kontak {
+	h2 {
+		font-size: 18px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+}
+
 #footeratas {
 
 	padding : 20px 0;
-	color : $putih;
+	color : darken($putih, 10%);
 	background : #2a2a2a;
 	margin-top : 20px;
+
+	li {
+		margin: 3px 0;
+
+		a {
+			color : darken($putih, 10%);
+			&:hover
+			{
+				color: $orange;
+			}
+		}
+	}
+
 }
 
 #footerbawah {
@@ -41,7 +132,7 @@ nav {
 			list-style: none;
 			
 			a { 
-
+				
 				color : $putih;
 				padding: 20px 15px;
 				text-decoration : none;
