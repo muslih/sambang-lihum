@@ -1,22 +1,33 @@
+// import compass css3
+@import 'compass';
+
+// !library
 @import 'lib/zeen';
-body {
-	font-family : 'arial', sans-serif; 
-	// 'Titillium Web' 
-	font-size : 13px;
-	font-weight : lighter;
-	// letter-spacing : -0,5px;	
-}
+
+// variable dan mixin
+@import 'helper/variable';
+@import 'helper/mixin';
 
 
+// !umum
+@import 'style/general';
+
+// !header
+
+// !section
 article {
 	margin-bottom : 20px;
 	// padding-right : 20px;
 } 
 
+// !aside
+
+// !footer
+
+
 
 .kotak-satu {
-	
-
+	@include kotak(#fff,0 0 15px 0);
 	h2 {
 		color: $putih;
 		font-size: 13px;
@@ -25,58 +36,28 @@ article {
 		background : $hijautua;
 	}
 
-	ul {
-		li {
-			a {
-				color: $abuabu;
-				margin: 10px 0;
-
-				&:hover {
-					color: $hijautua;
-				}
-			}
-		}
-	}			
+	li a:hover{
+		color:$hijautua;
+	}	
 
 }
 
-a.tombol {
-//		a {
-			display: block;
-			background : $orange;
-			color: $putih;
-			padding : 5px 10px;
-			margin-bottom : 20px;
-			float: right;
-			font-size: 10px;
-			font-style: italic;			
-//		}							
-}	
-
-
 .kotak-dua {
-	background : #eeeeee;
-	padding : 20px;
-	// margin-top : 20px;
-	display : block;
-
-	
+	@include kotak(#eee,15px);
 
 	h2 {
 		color: $hijautua;
 		font-size: 18px;
 		border-bottom : solid $orange 1px;
-		margin-bottom : 15px;
 	}		
-
-	
-	ul {
-		li { 
-			a {
-				color : $abuabu;
-			}
+	a{
+		// &.tombol{
+		// 	@include tombol($bg:#ec8621,$style:italic);
+		// }
+		&.tombol{
+			@include tombol(#ec8621,#fff,italic,right);
 		}
-	}			
+	}		
 
 }
 
