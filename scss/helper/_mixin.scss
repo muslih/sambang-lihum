@@ -1,3 +1,5 @@
+
+
 @mixin tombol($bg:#444,$font:#fff,$style:normal,$float:left){
 	// display: block;
 	@include transition-duration(0.5s);
@@ -16,13 +18,15 @@
 	padding:$pad;
 	overflow: hidden;
 	display: block;
-
+	
+	
 	ul{
 		margin-top: 10px;
 		li{
 			line-height: 20px;
 			a{
 				color:#444;
+				display: inline-table;
 			}
 		}
 	}
