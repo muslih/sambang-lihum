@@ -45,6 +45,7 @@ article {
 #menu-icon {
 	margin : 25px 0;
 	a { 
+		display: block;
 		color : $putih;
      	text-align : center;
 		background : $hijaumuda;
@@ -83,9 +84,9 @@ article {
 	h2 {
 		color: $hijautua;
 		font-size: 18px;
-		border-bottom : solid $orange 1px;
+		border-bottom : solid $orange 2px;
 	}		
-	a{
+	a{ 
 		// &.tombol{
 		// 	@include tombol($bg:#ec8621,$style:italic);
 		// }
@@ -144,7 +145,7 @@ nav {
 		display: block;
 
 		li {			
-			display: inline-table;
+			// display: inline-table;
 			list-style: none;
 			
 			a { 
@@ -152,7 +153,8 @@ nav {
 				color : $putih;
 				padding: 20px 15px;
 				text-decoration : none;
-				display: block;
+				display: inline-table;
+				float: left;
 
 				&:hover {
 					 // @include transition-duration (0.5s);
