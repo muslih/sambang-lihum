@@ -15,6 +15,17 @@
 // !header
 
 // !section
+
+
+img.thumb{
+	// img {
+		float : left;
+		display: block;
+		width: 150px; height: 150px;
+	// }
+}
+
+
 article {
 	overflow : hidden;
 	margin-bottom : 20px;
@@ -24,18 +35,36 @@ article {
 		margin-bottom: 10px;
 	}
 
-	h2 {
-		color: $hijautua;
-    	margin-bottom : 10px;
+
+	h2.judul-berita {
+		a{
+			color: $hijautua;
+    		font-size: 1em;
+
+    		&:hover {
+    			text-decoration: underline;
+    		}
+			
+		}
+		// margin-bottom : 10px;
+	}
+	
+
+	h4 {
+		color: $abuabu; 
+		margin: 0;
+		font-weight: normal;
+		line-height: 30px;
+
 	}
 
 	a {
 		margin-bottom: 10px;
 		&.tombol{
-			@include tombol(#ec8621,#fff,italic,left);
+			@include tombol(#ec8621,#fff,italic,right);
 		}		
 	}
-} 
+}
 
 // !aside
 
@@ -77,6 +106,7 @@ article {
 }
 
 .kotak-dua {
+	
 	@include kotak($abuabumuda,15px);
 	@include border-radius(5px);
 
@@ -90,9 +120,13 @@ article {
 		&.tombol{
 			@include tombol(#ec8621,#fff,italic,right);
 		}
-	}		
+	}	
+
+
 
 }
+
+
 
 
 #kontak {
