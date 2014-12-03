@@ -83,8 +83,6 @@ article {
 		@include border-radius(15px);
 	}
 	
-
-	
 	// background : $orange;
 
 }
@@ -110,23 +108,35 @@ article {
 	@include kotak($abuabumuda,15px);
 	@include border-radius(5px);
 
+	overflow : hidden;
+	
 	border : solid 1px darken($abuabumuda,5%);
 	h2 {
 		color: $hijautua;
 		font-size: 18px;
 		border-bottom : solid $orange 2px;
+
 	}		
 	a{ 
 		&.tombol{
 			@include tombol(#ec8621,#fff,italic,right);
 		}
 	}	
-
-
-
 }
 
+#polling {
+	h4 {
+		font-weight: normal;
+		line-height: 20px;
+		margin: 10px 0;
+	}
 
+	input[type=radio] {
+		margin-bottom: 10px;
+	}
+
+	margin-bottom : 15px;
+}
 
 
 #kontak {
