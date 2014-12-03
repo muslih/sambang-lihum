@@ -519,7 +519,7 @@ article a.tombol:hover {
   font-size: 18px;
   border-bottom: solid #ec8621 2px;
 }
-/* line 93, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -535,57 +535,57 @@ article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 102, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 #kontak h2 {
   font-size: 18px;
 }
-/* line 106, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 #kontak h1 {
   font-size: 30px;
 }
 
-/* line 111, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
   color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 118, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 #footeratas li {
   margin: 3px 0;
 }
-/* line 121, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 #footeratas li a {
   color: #e6e6e6;
 }
-/* line 123, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 #footeratas li a:hover {
   color: #ec8621;
 }
 
-/* line 132, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
 
-/* line 139, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 nav {
   color: #ffffff;
   background: #3a9c53;
   border-bottom: #ec8621 solid 5px;
 }
-/* line 144, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 nav ul {
   display: block;
 }
-/* line 147, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 nav ul li {
   list-style: none;
 }
-/* line 151, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 nav ul li a {
   color: #ffffff;
   padding: 20px 15px;
@@ -593,7 +593,7 @@ nav ul li a {
   display: inline-table;
   float: left;
 }
-/* line 159, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 nav ul li a:hover {
   background: #ec8621;
 }

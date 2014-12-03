@@ -87,9 +87,6 @@ article {
 		border-bottom : solid $orange 2px;
 	}		
 	a{ 
-		// &.tombol{
-		// 	@include tombol($bg:#ec8621,$style:italic);
-		// }
 		&.tombol{
 			@include tombol(#ec8621,#fff,italic,right);
 		}
