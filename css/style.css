@@ -379,11 +379,6 @@ h1, h2, h3, h4, a, ul, li, p {
   display: block;
 }
 
-/* line 16, ../scss/style/_general.scss */
-h1, h2, h3 {
-  letter-spacing: -1px;
-}
-
 /* line 20, ../scss/style/_general.scss */
 h2 {
   font-size: 18px;
@@ -396,7 +391,7 @@ h3 {
 
 /* line 28, ../scss/style/_general.scss */
 h4 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* line 33, ../scss/style/_general.scss */
@@ -426,65 +421,27 @@ p {
   text-align: justify;
 }
 
-/* line 20, ../scss/style.scss */
-img.thumb {
-  float: left;
-  display: block;
-  width: 150px;
-  height: 150px;
+/* line 16, ../scss/style.scss */
+table {
+  font-size: 13px;
+  color: #a12a2a;
+  font-weight: bold;
+}
+/* line 18, ../scss/style.scss */
+table td {
+  height: 20px;
+}
+
+/* line 25, ../scss/style.scss */
+header {
+  padding: 15px 0;
 }
 
 /* line 29, ../scss/style.scss */
-article {
-  overflow: hidden;
-  margin-bottom: 20px;
-  border-bottom: dashed 1px #e1e1e1;
-}
-/* line 34, ../scss/style.scss */
-article p {
-  margin-bottom: 10px;
-}
-/* line 40, ../scss/style.scss */
-article h2.judul-berita a {
-  color: #3a9c53;
-  font-size: 1em;
-}
-/* line 44, ../scss/style.scss */
-article h2.judul-berita a:hover {
-  text-decoration: underline;
-}
-/* line 53, ../scss/style.scss */
-article h4 {
-  color: #727272;
-  margin: 0;
-  font-weight: normal;
-  line-height: 30px;
-}
-/* line 61, ../scss/style.scss */
-article a {
-  margin-bottom: 10px;
-}
-/* line 63, ../scss/style.scss */
-article a.tombol {
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  background: #ec8621;
-  padding: 5px 10px;
-  font-style: italic;
-  float: right;
-}
-/* line 10, ../scss/helper/_mixin.scss */
-article a.tombol:hover {
-  background: #c96d11;
-}
-
-/* line 74, ../scss/style.scss */
 #menu-icon {
   margin: 25px 0;
 }
-/* line 76, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 #menu-icon a {
   display: block;
   color: #ffffff;
@@ -496,40 +453,206 @@ article a.tombol:hover {
   border-radius: 15px;
 }
 
-/* line 90, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
+nav {
+  color: #ffffff;
+  background: #3a9c53;
+  border-bottom: #ec8621 solid 5px;
+}
+/* line 50, ../scss/style.scss */
+nav ul {
+  display: block;
+}
+/* line 53, ../scss/style.scss */
+nav ul li {
+  list-style: none;
+}
+/* line 57, ../scss/style.scss */
+nav ul li a {
+  color: #ffffff;
+  padding: 20px 15px;
+  text-decoration: none;
+  display: inline-table;
+  float: left;
+}
+/* line 65, ../scss/style.scss */
+nav ul li a:hover {
+  background: #ec8621;
+}
+
+/* line 78, ../scss/style.scss */
+section img.thumb {
+  float: left;
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 15px 0;
+}
+/* line 87, ../scss/style.scss */
+section article {
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-bottom: dashed 1px #e1e1e1;
+}
+/* line 92, ../scss/style.scss */
+section article p {
+  margin: 15px 0;
+}
+/* line 98, ../scss/style.scss */
+section article h2.judul-berita a {
+  margin: 0;
+  color: #3a9c53;
+  font-size: 1em;
+}
+/* line 103, ../scss/style.scss */
+section article h2.judul-berita a:hover {
+  text-decoration: underline;
+}
+/* line 109, ../scss/style.scss */
+section article h4 {
+  color: #727272;
+  margin: 0;
+  font-weight: normal;
+}
+/* line 115, ../scss/style.scss */
+section article a {
+  margin-bottom: 10px;
+}
+/* line 117, ../scss/style.scss */
+section article a.tombol {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #ec8621;
+  padding: 5px 10px;
+  font-style: italic;
+  float: right;
+}
+/* line 11, ../scss/helper/_mixin.scss */
+section article a.tombol:hover {
+  background: #c96d11;
+}
+
+/* line 127, ../scss/style.scss */
+.box {
+  padding: 20px 0;
+  border-top: solid 8px #fafafa;
+  background: #ffffff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 140, ../scss/style.scss */
+.box article {
+  margin: 0;
+  display: block;
+}
+/* line 148, ../scss/style.scss */
+.box article h4 {
+  color: #a12a2a;
+  float: left;
+  display: block;
+}
+/* line 156, ../scss/style.scss */
+.box article p {
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+  display: block;
+}
+/* line 167, ../scss/style.scss */
+.box h2 {
+  top: -6px;
+  padding-right: 10px;
+  color: #6db025;
+  display: block;
+  position: absolute;
+  background: #ffffff;
+  float: left;
+}
+/* line 177, ../scss/style.scss */
+.box a {
+  color: #3a9c53;
+  font-weight: bold;
+  float: right;
+}
+/* line 184, ../scss/style.scss */
+.box a:hover {
+  text-decoration: underline;
+}
+
+/* line 192, ../scss/style.scss */
+#footeratas {
+  padding: 20px 0;
+  color: #e6e6e6;
+  background: #2a2a2a;
+  margin-top: 20px;
+}
+/* line 198, ../scss/style.scss */
+#footeratas li {
+  margin: 3px 0;
+}
+/* line 201, ../scss/style.scss */
+#footeratas li a {
+  color: #e6e6e6;
+}
+/* line 203, ../scss/style.scss */
+#footeratas li a:hover {
+  color: #ec8621;
+}
+
+/* line 211, ../scss/style.scss */
+#footerbawah {
+  background: #6db025;
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+/* line 218, ../scss/style.scss */
+#kontak h2 {
+  font-size: 18px;
+}
+/* line 222, ../scss/style.scss */
+#kontak h1 {
+  font-size: 30px;
+}
+
+/* line 230, ../scss/style.scss */
 .kotak-satu {
   background: #ffffff;
   padding: 0 0 15px 0;
   overflow: hidden;
   display: block;
 }
-/* line 23, ../scss/helper/_mixin.scss */
+/* line 22, ../scss/helper/_mixin.scss */
 .kotak-satu ul {
   margin-top: 10px;
 }
-/* line 25, ../scss/helper/_mixin.scss */
+/* line 24, ../scss/helper/_mixin.scss */
 .kotak-satu ul li {
   line-height: 20px;
 }
-/* line 27, ../scss/helper/_mixin.scss */
+/* line 26, ../scss/helper/_mixin.scss */
 .kotak-satu ul li a {
   color: #444;
   display: inline-table;
 }
-/* line 92, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 .kotak-satu h2 {
   color: #ffffff;
-  font-size: 13px;
   text-align: center;
   padding: 10px;
   background: #3a9c53;
 }
-/* line 100, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .kotak-satu li a:hover {
   color: #3a9c53;
 }
 
-/* line 106, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .kotak-dua {
   background: #fafafa;
   padding: 15px;
@@ -541,115 +664,54 @@ article a.tombol:hover {
   overflow: hidden;
   border: solid 1px #ededed;
 }
-/* line 23, ../scss/helper/_mixin.scss */
+/* line 22, ../scss/helper/_mixin.scss */
 .kotak-dua ul {
   margin-top: 10px;
 }
-/* line 25, ../scss/helper/_mixin.scss */
+/* line 24, ../scss/helper/_mixin.scss */
 .kotak-dua ul li {
   line-height: 20px;
 }
-/* line 27, ../scss/helper/_mixin.scss */
+/* line 26, ../scss/helper/_mixin.scss */
 .kotak-dua ul li a {
   color: #444;
   display: inline-table;
 }
-/* line 114, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .kotak-dua h2 {
   color: #3a9c53;
-  font-size: 18px;
   border-bottom: solid #ec8621 2px;
 }
-/* line 121, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   background: #ec8621;
   padding: 5px 10px;
   font-style: italic;
   float: right;
 }
-/* line 10, ../scss/helper/_mixin.scss */
+/* line 11, ../scss/helper/_mixin.scss */
 .kotak-dua a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 127, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 #polling {
   margin-bottom: 15px;
 }
-/* line 128, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
 #polling h4 {
   font-weight: normal;
   line-height: 20px;
   margin: 10px 0;
 }
-/* line 134, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
-}
-
-/* line 143, ../scss/style.scss */
-#kontak h2 {
-  font-size: 18px;
-}
-/* line 147, ../scss/style.scss */
-#kontak h1 {
-  font-size: 30px;
-}
-
-/* line 152, ../scss/style.scss */
-#footeratas {
-  padding: 20px 0;
-  color: #e6e6e6;
-  background: #2a2a2a;
-  margin-top: 20px;
-}
-/* line 159, ../scss/style.scss */
-#footeratas li {
-  margin: 3px 0;
-}
-/* line 162, ../scss/style.scss */
-#footeratas li a {
-  color: #e6e6e6;
-}
-/* line 164, ../scss/style.scss */
-#footeratas li a:hover {
-  color: #ec8621;
-}
-
-/* line 173, ../scss/style.scss */
-#footerbawah {
-  background: #6db025;
-  padding: 10px 0;
-  color: #ffffff;
-}
-
-/* line 180, ../scss/style.scss */
-nav {
-  color: #ffffff;
-  background: #3a9c53;
-  border-bottom: #ec8621 solid 5px;
-}
-/* line 185, ../scss/style.scss */
-nav ul {
-  display: block;
-}
-/* line 188, ../scss/style.scss */
-nav ul li {
-  list-style: none;
-}
-/* line 192, ../scss/style.scss */
-nav ul li a {
-  color: #ffffff;
-  padding: 20px 15px;
-  text-decoration: none;
-  display: inline-table;
-  float: left;
-}
-/* line 200, ../scss/style.scss */
-nav ul li a:hover {
-  background: #ec8621;
 }
