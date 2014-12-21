@@ -125,18 +125,23 @@ section {
 
 // !ASIDE
 .box {
-
 	padding : 20px 0;
-	border-top : solid 8px $abuabumuda;
+	border-top : solid 8px #eee;
 	//border-bottom : solid 8px $abuabumuda ;
-	
 	background : $putih;	
-	//position : absolute;
 	overflow : hidden;
-
 	margin-bottom : 20px;
-	
-
+	&#testi{
+		p{
+			text-align:left;
+			font-style: italic;
+			span{
+				display: block;
+				margin-top:15px;
+			}
+		}
+		// background: url() transparent top left;
+	}
 	article {
 		margin : 0;
 		display: block;
@@ -155,19 +160,16 @@ section {
 	    
 		p {
 			margin-bottom: 10px ;
-			// padding-bottom : 10px;
 			width: 100%;
 			float: left;
 			display: block;
-			
-		    // border-bottom : dashed 1px #e1e1e1;
 		}
 	}
     
     h2 {
     	top : -6px;
         padding-right : 10px;
-    	color: $hijaumuda;
+    	color: $hijautua;
     	display: block;
     	position: absolute;
     	background : $putih;
