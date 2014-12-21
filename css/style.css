@@ -541,41 +541,52 @@ section article a.tombol:hover {
 
 /* line 127, ../scss/style.scss */
 .box {
-  padding: 20px 0;
+  padding-top: 20px;
   border-top: solid 8px #eee;
   background: #ffffff;
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 135, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
+.box#testi {
+  background: url('../img/quote.png?1419175335') 0px 20px no-repeat;
+}
+/* line 136, ../scss/style.scss */
 .box#testi p {
   text-align: left;
   font-style: italic;
+  margin-bottom: 10px;
 }
-/* line 138, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .box#testi p span {
   display: block;
-  margin-top: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: #a12a2a;
 }
-/* line 145, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
+.box#testi a {
+  font-weight: normal;
+}
+/* line 153, ../scss/style.scss */
 .box article {
   margin: 0;
   display: block;
 }
-/* line 153, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .box article h4 {
   color: #a12a2a;
   float: left;
   display: block;
 }
-/* line 161, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .box article p {
   margin-bottom: 10px;
   width: 100%;
   float: left;
   display: block;
 }
-/* line 169, ../scss/style.scss */
+/* line 177, ../scss/style.scss */
 .box h2 {
   top: -6px;
   padding-right: 10px;
@@ -585,54 +596,54 @@ section article a.tombol:hover {
   background: #ffffff;
   float: left;
 }
-/* line 179, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 .box a {
   color: #3a9c53;
   font-weight: bold;
   float: right;
 }
-/* line 186, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .box a:hover {
   text-decoration: underline;
 }
 
-/* line 194, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
   color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 200, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 #footeratas li {
   margin: 3px 0;
 }
-/* line 203, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 #footeratas li a {
   color: #e6e6e6;
 }
-/* line 205, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 #footeratas li a:hover {
   color: #ec8621;
 }
 
-/* line 213, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
 
-/* line 220, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 #kontak h2 {
   font-size: 18px;
 }
-/* line 224, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 #kontak h1 {
   font-size: 30px;
 }
 
-/* line 232, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .kotak-satu {
   background: #ffffff;
   padding: 0 0 15px 0;
@@ -652,19 +663,19 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 234, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 .kotak-satu h2 {
   color: #ffffff;
   text-align: center;
   padding: 10px;
   background: #3a9c53;
 }
-/* line 242, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 .kotak-satu li a:hover {
   color: #3a9c53;
 }
 
-/* line 247, ../scss/style.scss */
+/* line 255, ../scss/style.scss */
 .kotak-dua {
   background: #fafafa;
   padding: 15px;
@@ -689,12 +700,12 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 253, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .kotak-dua h2 {
   color: #3a9c53;
   border-bottom: solid #ec8621 2px;
 }
-/* line 260, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -713,17 +724,17 @@ section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 266, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 #polling {
   margin-bottom: 15px;
 }
-/* line 267, ../scss/style.scss */
+/* line 275, ../scss/style.scss */
 #polling h4 {
   font-weight: normal;
   line-height: 20px;
   margin: 10px 0;
 }
-/* line 273, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
 }

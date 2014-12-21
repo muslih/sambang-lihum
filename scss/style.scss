@@ -125,22 +125,30 @@ section {
 
 // !ASIDE
 .box {
-	padding : 20px 0;
+	padding-top : 20px;
 	border-top : solid 8px #eee;
 	//border-bottom : solid 8px $abuabumuda ;
 	background : $putih;	
 	overflow : hidden;
 	margin-bottom : 20px;
 	&#testi{
+		background: image-url('quote.png') 0px 20px no-repeat;
 		p{
 			text-align:left;
 			font-style: italic;
+			margin-bottom: 10px;
 			span{
 				display: block;
-				margin-top:15px;
+				font-weight: bold;
+				font-style: normal;
+				color:$merahtua;
 			}
 		}
-		// background: url() transparent top left;
+
+		a{
+			font-weight: normal;
+		}
+		
 	}
 	article {
 		margin : 0;
