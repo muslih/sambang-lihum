@@ -426,7 +426,7 @@ p {
 /* line 16, ../scss/style.scss */
 table {
   font-size: 13px;
-  color: #a12a2a;
+  color: inherit;
   font-weight: bold;
 }
 /* line 18, ../scss/style.scss */
@@ -541,11 +541,11 @@ section article a.tombol:hover {
 
 /* line 127, ../scss/style.scss */
 .box {
-  padding-top: 20px;
+  padding-top: 10px;
   border-top: solid 8px #eee;
   background: #ffffff;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 /* line 134, ../scss/style.scss */
 .box#testi {
@@ -606,44 +606,50 @@ section article a.tombol:hover {
 .box a:hover {
   text-decoration: underline;
 }
+/* line 199, ../scss/style.scss */
+.box table {
+  color: #444;
+  font-weight: normal;
+  font-style: 14px;
+}
 
-/* line 202, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
   color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 208, ../scss/style.scss */
+/* line 214, ../scss/style.scss */
 #footeratas li {
   margin: 3px 0;
 }
-/* line 211, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 #footeratas li a {
   color: #e6e6e6;
 }
-/* line 213, ../scss/style.scss */
+/* line 219, ../scss/style.scss */
 #footeratas li a:hover {
   color: #ec8621;
 }
 
-/* line 221, ../scss/style.scss */
+/* line 227, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
 
-/* line 228, ../scss/style.scss */
+/* line 234, ../scss/style.scss */
 #kontak h2 {
   font-size: 18px;
 }
-/* line 232, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 #kontak h1 {
   font-size: 30px;
 }
 
-/* line 240, ../scss/style.scss */
+/* line 246, ../scss/style.scss */
 .kotak-satu {
   background: #ffffff;
   padding: 0 0 15px 0;
@@ -663,19 +669,19 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 242, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 .kotak-satu h2 {
   color: #ffffff;
   text-align: center;
   padding: 10px;
   background: #3a9c53;
 }
-/* line 250, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .kotak-satu li a:hover {
   color: #3a9c53;
 }
 
-/* line 255, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .kotak-dua {
   background: #fafafa;
   padding: 15px;
@@ -700,12 +706,12 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 261, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .kotak-dua h2 {
   color: #3a9c53;
   border-bottom: solid #ec8621 2px;
 }
-/* line 268, ../scss/style.scss */
+/* line 274, ../scss/style.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -724,17 +730,17 @@ section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 274, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 #polling {
   margin-bottom: 15px;
 }
-/* line 275, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 #polling h4 {
   font-weight: normal;
   line-height: 20px;
   margin: 10px 0;
 }
-/* line 281, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
 }

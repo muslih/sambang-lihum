@@ -18,7 +18,7 @@ table {
 	td {
 		height: 20px;
 	}
-	color : $merahtua;
+	color : inherit;
 	font-weight : bold;
 }
 // !HEADER
@@ -125,12 +125,12 @@ section {
 
 // !ASIDE
 .box {
-	padding-top : 20px;
+	padding-top : 10px;
 	border-top : solid 8px #eee;
 	//border-bottom : solid 8px $abuabumuda ;
 	background : $putih;	
 	overflow : hidden;
-	margin-bottom : 20px;
+	margin-bottom : 30px;
 	&#testi{
 		background: image-url('quote.png') 0px 20px no-repeat;
 		p{
@@ -195,6 +195,12 @@ section {
         	text-decoration: underline;
         }	
     }	
+
+    table{
+    	color:#444;
+    	font-weight: normal;
+    	font-style: 14px;
+    }
 }
 // !AKHIR ASIDE
 
