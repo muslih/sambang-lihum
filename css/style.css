@@ -620,36 +620,39 @@ section article a.tombol:hover {
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 214, ../scss/style.scss */
-#footeratas li {
-  margin: 3px 0;
-}
 /* line 217, ../scss/style.scss */
 #footeratas li a {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  display: block;
+  line-height: 1.5em;
+  font-size: 14px;
   color: #e6e6e6;
 }
-/* line 219, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 #footeratas li a:hover {
   color: #ec8621;
 }
 
-/* line 227, ../scss/style.scss */
+/* line 231, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
 
-/* line 234, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 #kontak h2 {
   font-size: 18px;
 }
-/* line 238, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 #kontak h1 {
   font-size: 30px;
 }
 
-/* line 246, ../scss/style.scss */
+/* line 250, ../scss/style.scss */
 .kotak-satu {
   background: #ffffff;
   padding: 0 0 15px 0;
@@ -669,19 +672,19 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 248, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .kotak-satu h2 {
   color: #ffffff;
   text-align: center;
   padding: 10px;
   background: #3a9c53;
 }
-/* line 256, ../scss/style.scss */
+/* line 260, ../scss/style.scss */
 .kotak-satu li a:hover {
   color: #3a9c53;
 }
 
-/* line 261, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
 .kotak-dua {
   background: #fafafa;
   padding: 15px;
@@ -706,12 +709,12 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 267, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 .kotak-dua h2 {
   color: #3a9c53;
   border-bottom: solid #ec8621 2px;
 }
-/* line 274, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -730,17 +733,17 @@ section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 280, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 #polling {
   margin-bottom: 15px;
 }
-/* line 281, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 #polling h4 {
   font-weight: normal;
   line-height: 20px;
   margin: 10px 0;
 }
-/* line 287, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
 }
