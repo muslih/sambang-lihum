@@ -29,14 +29,36 @@ header {
 #menu-icon {
 	margin : 25px 0;
 	a { 
+		@include transition-duration(0.5s);
 		display: block;
 		color : $putih;
      	text-align : center;
 		background : $hijaumuda;
-		padding: 30px;
+		padding: 10px 5px 40px 5px;
 
-		@include border-radius(15px);
+		@include border-radius(5px);
+
+
+		span{
+			@include transition-duration(0.5s);
+			@include border-radius(0 0 5px 5px);
+			position: absolute;
+			left:0;
+			right: 0;
+			bottom:0;
+			padding:10px;
+			background: $hijautua;
+
+		}
+		&:hover{
+			background: $hijautua;
+			span{
+				background: $hijaumuda;
+			}
+		}
 	}
+	
+	
 }
 // !AKHIR HEADER
 
