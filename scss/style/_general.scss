@@ -1,0 +1,61 @@
+body {
+	font-family : 'arial', sans-serif; 
+	font-size : 13px;
+	font-weight : 300;
+	
+}
+
+h1,h2,h3,h4,a,ul,li,p {
+	margin : 0;
+	padding : 0;
+	display : block;
+	// text-decoration: none;
+}
+
+
+h1,h2,h3 {
+	//letter-spacing : -1px;
+}
+
+h2 {
+	font-size : 18px;
+}
+
+h3 {
+	font-size : 16px;
+} 
+
+h4 {
+	font-size : 13px;
+}
+
+article { 
+	h2 {
+		letter-spacing : -0.5px;		
+	}
+}
+
+a { 
+	color : $putih;
+	font-size: 13px;
+	text-decoration : none;
+	// display : block;
+}
+
+li {
+	list-style : none;
+}
+
+ul, li {
+display : block;	
+}
+
+p {
+	text-align : justify;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+
+
+
