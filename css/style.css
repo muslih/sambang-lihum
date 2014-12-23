@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../../../usr/local/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../../../usr/local/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -365,6 +365,17 @@ img {
   width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 3, ../scss/lib/_zeen-resp.scss */
+  .baris {
+    max-width: 767px;
+  }
+  /* line 5, ../scss/lib/_zeen-resp.scss */
+  .baris [class*="zeen"] {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 /* line 1, ../scss/style/_general.scss */
 body {
   font-family: 'arial', sans-serif;
@@ -587,7 +598,7 @@ section article a.tombol:hover {
 }
 /* line 159, ../scss/style.scss */
 .box#testi {
-  background: url('../img/quote.png?1419209667') 0px 20px no-repeat;
+  background: url('../img/quote.png?1419182574') 0px 20px no-repeat;
 }
 /* line 161, ../scss/style.scss */
 .box#testi p {
