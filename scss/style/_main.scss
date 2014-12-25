@@ -1,27 +1,31 @@
-// import compass css3
-@import 'compass';
+table {
+	font-size : 13px;
+	td {
+		height: 20px;
+	}
+	color : inherit;
+	font-weight : bold;
+}
+// !HEADER
+header {
+	padding :15px 0;
+}
 
-// !library
-@import 'lib/zeen';
+#menu-icon {
+	margin : 25px 0;
+	a { 
+		@include transition-duration(0.5s);
+		display: block;
+		color : $putih;
+		font-weight: bold;
+     	text-align : center;
+		background : $hijaumuda;
+		padding: 10px 5px 40px 5px;
 
-// variable dan mixin
-@import 'helper/variable';
-@import 'helper/mixin';
-
-
-// !UMUM
-@import 'style/general';
-
-// style utama;
-@import 'style/main';
-// responsive style
-@import 'style/responsive';
-
-
-		// img {
-		// 	width: 64px;
-		// 	height: 64px;
-		// }
+		img {
+			width: 64px;
+			height: 64px;
+		}
 
 		@include border-radius(5px);
 
@@ -299,6 +303,5 @@ section {
 	}
 
 	margin-bottom : 15px;
-
-// AKHIR WIDGET
-
+   
+}
