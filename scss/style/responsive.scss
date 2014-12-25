@@ -1,7 +1,10 @@
 //responsive zeengrid 
 @media only screen and (max-width: 767px) {
-	#menu-icon{
+	.kotak-dua {
+		margin-bottom: 15px;
+	}
 
+	#menu-icon{
 		img{
 			display: none;
 		}

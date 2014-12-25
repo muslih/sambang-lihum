@@ -798,36 +798,41 @@ section article a.tombol:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 5, ../scss/style/responsive.scss */
+  /* line 3, ../scss/style/responsive.scss */
+  .kotak-dua {
+    margin-bottom: 15px;
+  }
+
+  /* line 8, ../scss/style/responsive.scss */
   #menu-icon img {
     display: none;
   }
-  /* line 8, ../scss/style/responsive.scss */
+  /* line 11, ../scss/style/responsive.scss */
   #menu-icon a {
     vertical-align: middle;
     margin-bottom: 15px;
     padding: 10px 0;
     background: #3a9c53;
   }
-  /* line 13, ../scss/style/responsive.scss */
+  /* line 16, ../scss/style/responsive.scss */
   #menu-icon a span {
     position: relative;
   }
-  /* line 16, ../scss/style/responsive.scss */
+  /* line 19, ../scss/style/responsive.scss */
   #menu-icon a:hover {
     background: #6db025;
   }
 
-  /* line 22, ../scss/style/responsive.scss */
+  /* line 25, ../scss/style/responsive.scss */
   .zeen-2 {
     width: 50% !important;
     float: left;
   }
-  /* line 27, ../scss/style/responsive.scss */
+  /* line 30, ../scss/style/responsive.scss */
   .zeen-2:nth-child(even) a {
     margin-left: 10px;
   }
-  /* line 33, ../scss/style/responsive.scss */
+  /* line 36, ../scss/style/responsive.scss */
   .zeen-2:nth-child(odd) a {
     margin-right: 10px;
   }
