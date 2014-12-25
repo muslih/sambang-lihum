@@ -15,7 +15,7 @@
    viewBox="0 0 64 64"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="i-family-practice.svg">
+   sodipodi:docname="medis.svg">
   <metadata
      id="metadata18">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,7 +45,7 @@
      showgrid="false"
      inkscape:zoom="3.6875"
      inkscape:cx="32"
-     inkscape:cy="32"
+     inkscape:cy="31.939106"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"

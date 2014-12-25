@@ -459,11 +459,6 @@ header {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 40, ../scss/style.scss */
-#menu-icon a img {
-  width: 64px;
-  height: 64px;
-}
 /* line 48, ../scss/style.scss */
 #menu-icon a span {
   -moz-transition-duration: 0.5s;
