@@ -18,6 +18,16 @@
 @import 'style/responsive';
 
 #menu-icon {
+    margin: 25px 0;	
+	
+	a {
+		@include transition-duration(0.5s);
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		background: #6db025;
+		padding: 10px 5px 40px 5px;
+
 		// img {
 		// 	width: 64px;
 		// 	height: 64px;
@@ -45,8 +55,7 @@
 		}
 	}
 	
-	
-
+}
 // !AKHIR HEADER
 
 
