@@ -1,4 +1,4 @@
-@import 'helper/variable';
+@import '../helper/variable';
 //responsive zeengrid 
 @media only screen and (max-width: 767px) {
 	.kotak-dua {
@@ -10,15 +10,14 @@
 			display: none;
 		}
 		a{
-			vertical-align: middle;
 			margin-bottom: 15px;
-			padding:10px 0;
-			background: #3a9c53;
+			padding:10px 0 !important;
 			span{
-				position: relative;
-			}
-			&:hover{
-				background: $hijaumuda;
+				position: relative !important;
+				margin-bottom: 15px;
+
+				background: transparent !important;
+
 			}
 		}
 	}

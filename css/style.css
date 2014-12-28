@@ -809,30 +809,26 @@ section article a.tombol:hover {
   }
   /* line 12, ../scss/style/_responsive.scss */
   #menu-icon a {
-    vertical-align: middle;
     margin-bottom: 15px;
-    padding: 10px 0;
-    background: #3a9c53;
+    padding: 10px 0 !important;
   }
-  /* line 17, ../scss/style/_responsive.scss */
+  /* line 15, ../scss/style/_responsive.scss */
   #menu-icon a span {
-    position: relative;
-  }
-  /* line 20, ../scss/style/_responsive.scss */
-  #menu-icon a:hover {
-    background: #6db025;
+    position: relative !important;
+    margin-bottom: 15px;
+    background: transparent !important;
   }
 
-  /* line 26, ../scss/style/_responsive.scss */
+  /* line 25, ../scss/style/_responsive.scss */
   .zeen-2 {
     width: 50% !important;
     float: left;
   }
-  /* line 31, ../scss/style/_responsive.scss */
+  /* line 30, ../scss/style/_responsive.scss */
   .zeen-2:nth-child(even) a {
     margin-left: 10px;
   }
-  /* line 37, ../scss/style/_responsive.scss */
+  /* line 36, ../scss/style/_responsive.scss */
   .zeen-2:nth-child(odd) a {
     margin-right: 10px;
   }
