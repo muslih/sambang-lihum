@@ -17,6 +17,18 @@
 // responsive style
 @import 'style/responsive';
 
+// !HEADER
+
+header {
+	h1 {
+		color: $hijautua;
+	}
+	h3 {
+		color: $merahtua;
+		font-style: italic;
+	}
+}
+
 #menu-icon {
     margin: 25px 0;	
 	
@@ -27,14 +39,7 @@
 		text-align: center;
 		background: #6db025;
 		padding: 10px 5px 40px 5px;
-
-		// img {
-		// 	width: 64px;
-		// 	height: 64px;
-		// }
-
 		@include border-radius(5px);
-
 
 		span{
 			@include transition-duration(0.5s);
@@ -45,7 +50,6 @@
 			bottom:0;
 			padding:10px;
 			background: $hijautua;
-
 		}
 		&:hover{
 			background: $hijautua;
@@ -107,7 +111,6 @@ section {
 		p {
 			margin: 15px 0;
 		}
-
 
 		h2.judul-berita {
 			a{ 
@@ -227,8 +230,6 @@ section {
 	margin-top : 20px;
 
 	li {
-		// margin: 3px 0;
-
 		a {
 			@include transition-duration(0.5s);
 			display: block;

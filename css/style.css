@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../usr/local/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../usr/local/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -598,7 +598,7 @@ section article a.tombol:hover {
 }
 /* line 144, ../scss/style/_main.scss */
 .box#testi {
-  background: url('../img/quote.png?1419182574') 0px 20px no-repeat;
+  background: url('../img/quote.png?1419209667') 0px 20px no-repeat;
 }
 /* line 146, ../scss/style/_main.scss */
 .box#testi p {
@@ -809,7 +809,7 @@ section article a.tombol:hover {
   }
   /* line 12, ../scss/style/_responsive.scss */
   #menu-icon a {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding: 10px 0 !important;
   }
   /* line 15, ../scss/style/_responsive.scss */
@@ -819,25 +819,35 @@ section article a.tombol:hover {
     background: transparent !important;
   }
 
-  /* line 25, ../scss/style/_responsive.scss */
+  /* line 23, ../scss/style/_responsive.scss */
   .zeen-2 {
     width: 50% !important;
     float: left;
   }
-  /* line 30, ../scss/style/_responsive.scss */
+  /* line 27, ../scss/style/_responsive.scss */
   .zeen-2:nth-child(even) a {
     margin-left: 10px;
   }
-  /* line 36, ../scss/style/_responsive.scss */
+  /* line 32, ../scss/style/_responsive.scss */
   .zeen-2:nth-child(odd) a {
     margin-right: 10px;
   }
 }
-/* line 20, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
+header h1 {
+  color: #3a9c53;
+}
+/* line 26, ../scss/style.scss */
+header h3 {
+  color: #a12a2a;
+  font-style: italic;
+}
+
+/* line 32, ../scss/style.scss */
 #menu-icon {
   margin: 25px 0;
 }
-/* line 23, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
 #menu-icon a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -852,7 +862,7 @@ section article a.tombol:hover {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 39, ../scss/style.scss */
+/* line 44, ../scss/style.scss */
 #menu-icon a span {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -868,30 +878,30 @@ section article a.tombol:hover {
   padding: 10px;
   background: #3a9c53;
 }
-/* line 50, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 #menu-icon a:hover {
   background: #3a9c53;
 }
-/* line 52, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 #menu-icon a:hover span {
   background: #6db025;
 }
 
-/* line 63, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 nav {
   color: #ffffff;
   background: #3a9c53;
   border-bottom: #ec8621 solid 5px;
 }
-/* line 68, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 nav ul {
   display: block;
 }
-/* line 70, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 nav ul li {
   list-style: none;
 }
-/* line 73, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 nav ul li a {
   color: #ffffff;
   padding: 20px 15px;
@@ -899,7 +909,7 @@ nav ul li a {
   display: inline-table;
   float: left;
 }
-/* line 81, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 nav ul li a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -908,7 +918,7 @@ nav ul li a:hover {
   background: #ec8621;
 }
 
-/* line 93, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 section img.thumb {
   float: left;
   display: block;
@@ -916,37 +926,37 @@ section img.thumb {
   height: 150px;
   margin: 0 15px 15px 0;
 }
-/* line 102, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 section article {
   overflow: hidden;
   margin-bottom: 20px;
   border-bottom: dashed 1px #e1e1e1;
 }
-/* line 107, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 section article p {
   margin: 15px 0;
 }
-/* line 113, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 section article h2.judul-berita a {
   margin: 0;
   color: #3a9c53;
   font-size: 1em;
 }
-/* line 118, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 section article h2.judul-berita a:hover {
   text-decoration: underline;
 }
-/* line 124, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 section article h4 {
   color: #727272;
   margin: 0;
   font-weight: normal;
 }
-/* line 130, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 section article a {
   margin-bottom: 10px;
 }
-/* line 132, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 section article a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -965,7 +975,7 @@ section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 142, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 .box {
   padding-top: 10px;
   border-top: solid 8px #eee;
@@ -973,46 +983,46 @@ section article a.tombol:hover {
   overflow: hidden;
   margin-bottom: 30px;
 }
-/* line 149, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 .box#testi {
-  background: url('../img/quote.png?1419182574') 0px 20px no-repeat;
+  background: url('../img/quote.png?1419209667') 0px 20px no-repeat;
 }
-/* line 151, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 .box#testi p {
   text-align: left;
   font-style: italic;
   margin-bottom: 10px;
 }
-/* line 155, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 .box#testi p span {
   display: block;
   font-weight: bold;
   font-style: normal;
   color: #a12a2a;
 }
-/* line 163, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 .box#testi a {
   font-weight: normal;
 }
-/* line 168, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .box article {
   margin: 0;
   display: block;
 }
-/* line 176, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .box article h4 {
   color: #a12a2a;
   float: left;
   display: block;
 }
-/* line 184, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 .box article p {
   margin-bottom: 10px;
   width: 100%;
   float: left;
   display: block;
 }
-/* line 192, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 .box h2 {
   top: -6px;
   padding-right: 10px;
@@ -1022,31 +1032,31 @@ section article a.tombol:hover {
   background: #ffffff;
   float: left;
 }
-/* line 202, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .box a {
   color: #3a9c53;
   font-weight: bold;
   float: right;
 }
-/* line 209, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 .box a:hover {
   text-decoration: underline;
 }
-/* line 214, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .box table {
   color: #444;
   font-weight: normal;
   font-style: 14px;
 }
 
-/* line 223, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 #footeratas {
   padding: 20px 0;
   color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 232, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 #footeratas li a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -1057,28 +1067,28 @@ section article a.tombol:hover {
   font-size: 14px;
   color: #e6e6e6;
 }
-/* line 238, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 #footeratas li a:hover {
   color: #ec8621;
 }
 
-/* line 246, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
 
-/* line 253, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 #kontak h2 {
   font-size: 18px;
 }
-/* line 257, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 #kontak h1 {
   font-size: 30px;
 }
 
-/* line 265, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .kotak-satu {
   background: #ffffff;
   padding: 0 0 15px 0;
@@ -1098,19 +1108,19 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 267, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 .kotak-satu h2 {
   color: #ffffff;
   text-align: center;
   padding: 10px;
   background: #3a9c53;
 }
-/* line 275, ../scss/style.scss */
+/* line 276, ../scss/style.scss */
 .kotak-satu li a:hover {
   color: #3a9c53;
 }
 
-/* line 280, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 .kotak-dua {
   background: #fafafa;
   padding: 15px;
@@ -1135,12 +1145,12 @@ section article a.tombol:hover {
   color: #444;
   display: inline-table;
 }
-/* line 286, ../scss/style.scss */
+/* line 287, ../scss/style.scss */
 .kotak-dua h2 {
   color: #3a9c53;
   border-bottom: solid #ec8621 2px;
 }
-/* line 293, ../scss/style.scss */
+/* line 294, ../scss/style.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -1159,17 +1169,17 @@ section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 299, ../scss/style.scss */
+/* line 300, ../scss/style.scss */
 #polling {
   margin-bottom: 15px;
 }
-/* line 300, ../scss/style.scss */
+/* line 301, ../scss/style.scss */
 #polling h4 {
   font-weight: normal;
   line-height: 20px;
   margin: 10px 0;
 }
-/* line 306, ../scss/style.scss */
+/* line 307, ../scss/style.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
 }

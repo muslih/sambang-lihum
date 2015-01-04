@@ -10,14 +10,12 @@
 			display: none;
 		}
 		a{
-			margin-bottom: 15px;
+			margin-bottom: 5px;
 			padding:10px 0 !important;
 			span{
 				position: relative !important;
 				margin-bottom: 15px;
-
 				background: transparent !important;
-
 			}
 		}
 	}
@@ -26,13 +24,11 @@
 		width:50% !important;
 		float:left;
 		&:nth-child(even){
-
 			a{
 				margin-left: 10px;
 			}
 		}
 		&:nth-child(odd){
-
 			a{
 				margin-right: 10px;
 			}
