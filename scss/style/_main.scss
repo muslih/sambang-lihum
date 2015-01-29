@@ -85,10 +85,28 @@ nav {
 				float: right;
 				padding:10px 0;
 				input{
+					padding:10px 0;
 					border:none;
-					padding:2px 5px;
+					padding:5px;
 				}
-			}			
+			}	
+			form{
+				position: relative;
+				button{
+					@include transition-duration(0.5s);
+					position: absolute;
+					bottom:0;
+					right: 0;
+					width: 25px;
+					height: 25px;
+					border:0;
+					background: $orange ;
+					padding:0;
+					&:hover{
+						background: darken($orange,5%);
+					}
+				}
+			}		
 		}		
 	}
 }
