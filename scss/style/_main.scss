@@ -1,45 +1,48 @@
-table {
-	font-size : 13px;
-	td {
-		height: 20px;
-	}
-	color : inherit;
-	font-weight : bold;
-}
 // !HEADER
+
 header {
-	padding :15px 0;
+	padding:15px 0;
+	img{
+		float: left;
+		height: 70px;
+		margin-right: 15px;
+	}
+	h1 {
+		color: #444;
+		font-size: 17px;
+		span{
+			display: block;
+			color:$hijautua;
+			font-size: 30px;
+		}
+	}
+	h3 {
+		color: $merahtua;
+		font-style: italic;
+	}
 }
 
 #menu-icon {
-	margin : 25px 0;
-	a { 
+    margin: 25px 0;	
+	
+	a {
 		@include transition-duration(0.5s);
 		display: block;
-		color : $putih;
-		font-weight: bold;
-     	text-align : center;
-		background : $hijaumuda;
+		color: #ffffff;
+		text-align: center;
+		background: #6db025;
 		padding: 10px 5px 40px 5px;
-
-		img {
-			width: 64px;
-			height: 64px;
-		}
-
-		@include border-radius(5px);
-
+		// @include border-radius(5px);
 
 		span{
 			@include transition-duration(0.5s);
-			@include border-radius(0 0 5px 5px);
+			// @include border-radius(0 0 5px 5px);
 			position: absolute;
 			left:0;
 			right: 0;
 			bottom:0;
 			padding:10px;
 			background: $hijautua;
-
 		}
 		&:hover{
 			background: $hijautua;
@@ -48,7 +51,6 @@ header {
 			}
 		}
 	}
-	
 	
 }
 // !AKHIR HEADER
@@ -68,14 +70,23 @@ nav {
 			a { 
 				// @include transition-duration (0.5s);
 				color : $putih;
-				padding: 20px 15px;
+				padding: 15px 10px;
 				text-decoration : none;
 				display: inline-table;
 				float: left;
+				font-size: 13px;
 
 				&:hover {
 					@include transition-duration (0.5s);
 					background : $orange;
+				}
+			}
+			&.kanan{
+				float: right;
+				padding:10px 0;
+				input{
+					border:none;
+					padding:2px 5px;
 				}
 			}			
 		}		
@@ -103,7 +114,6 @@ section {
 			margin: 15px 0;
 		}
 
-
 		h2.judul-berita {
 			a{ 
 				margin : 0;
@@ -125,7 +135,7 @@ section {
 		a {
 			margin-bottom: 10px;
 			&.tombol{
-				@include tombol(#ec8621,#fff,italic,right);
+				@include tombol(#ec8621,#fff,normal,right);
 			}		
 		}
 	}
@@ -221,18 +231,23 @@ section {
 	background : #2a2a2a;
 	margin-top : 20px;
 
-	li {
-		// margin: 3px 0;
+	[class*="zeen"]{
+		@include box-shadow(1px 0 0 #444);
+		&:last-child{
+			@include box-shadow(0 0 0 #ccc);
+		}
+	}
 
+	li {
 		a {
 			@include transition-duration(0.5s);
 			display: block;
-			line-height: 1.5em;
-			font-size: 14px;
-			color : darken($putih, 10%);
+			line-height: 24px;
+			// font-size: 13px !important;
+			color : lighten(#444,30%);
 			&:hover
 			{
-				color: $orange;
+				color: $putih;
 			}
 		}
 	}
@@ -242,66 +257,33 @@ section {
 	background : $hijaumuda;
 	padding : 10px 0;
 	color : $putih;
+	p{
+		font-size: 13px;
+	}
+
 }
 
 #kontak {
+	color:#fff;
+	img{
+		float: left;
+		height: 100px;
+		margin-right: 10px;
+		margin-bottom: 40px;
+	}
 	h2 {
-		font-size: 18px;
+		font-size: 13px;
+		color : lighten(#444,30%);
+		margin-bottom: 5px;
 	}
 
 	h1 {
-		font-size: 30px;
+		font-size: 27px;
+		margin-bottom: 15px;
+	}
+	p{
+		font-size: 12px;
+		color : lighten(#444,30%);
 	}
 }
 // !AKHIR FOOTER 
-
-
-// !WIDGET
-.kotak-satu {
-	@include kotak($putih,0 0 15px 0);
-	h2 {
-		color: $putih;
-		//font-size: 13px;
-		text-align: center;
-		padding : 10px;
-		background : $hijautua;
-	}
-
-	li a:hover{
-		color:$hijautua;
-	}	
-}
-
-.kotak-dua {
-	@include kotak($abuabumuda,15px);
-	@include border-radius(5px);
-	overflow : hidden;
-	
-	border : solid 1px darken($abuabumuda,5%);
-	h2 {
-		color: $hijautua;
-		//font-size: 18px;
-		border-bottom : solid $orange 2px;
-	}	
-
-	a{ 
-		&.tombol{
-			@include tombol(#ec8621,#fff,italic,right);
-		}
-	}	
-}
-
-#polling {
-	h4 {
-		font-weight: normal;
-		line-height: 20px;
-		margin: 10px 0;
-	}
-
-	input[type=radio] {
-		margin-bottom: 10px;
-	}
-
-	margin-bottom : 15px;
-   
-}
