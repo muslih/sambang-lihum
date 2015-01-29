@@ -457,7 +457,7 @@ p {
 /* line 63, ../scss/style/_general.scss */
 .kotak-satu h2 {
   color: #ffffff;
-  font-size: 13px;
+  font-size: 14px;
   padding: 5px 10px;
   background: #3a9c53;
 }
@@ -529,52 +529,6 @@ p {
 /* line 106, ../scss/style/_general.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
-}
-
-/* ----------------------------------------------------------------------------------------------------------------------------
-== USER INTERACTIONS
-** ---------------------------------------------------------------------------------------------------------------------------- */
-/* SEARCH
-------------------------------------------------------------------------------------------------------------------------------- */
-/* line 121, ../scss/style/_general.scss */
-.search a:before {
-  width: 6px;
-  height: 6px;
-  border: 3px solid #c55500;
-  background: transparent;
-  /* css3 */
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-}
-
-/* line 132, ../scss/style/_general.scss */
-.search a:after {
-  left: 10px;
-  width: 3px;
-  height: 7px;
-  margin-top: 0;
-  /* css3 */
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-/* line 145, ../scss/style/_general.scss */
-.search a:hover:before,
-.search a:focus:before,
-.search a:active:before {
-  border-color: #730800;
-  background: transparent;
-}
-
-/* line 152, ../scss/style/_general.scss */
-.search a:hover:after,
-.search a:focus:after,
-.search a:active:after {
-  background: #730800;
 }
 
 /* line 3, ../scss/style/_main.scss */
