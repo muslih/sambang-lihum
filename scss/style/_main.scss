@@ -32,11 +32,8 @@ header {
 		text-align: center;
 		background: #6db025;
 		padding: 10px 5px 40px 5px;
-		// @include border-radius(5px);
-
 		span{
 			@include transition-duration(0.5s);
-			// @include border-radius(0 0 5px 5px);
 			position: absolute;
 			left:0;
 			right: 0;
@@ -88,6 +85,7 @@ nav {
 					padding:10px 0;
 					border:none;
 					padding:5px;
+					width: 200px;
 				}
 			}	
 			form{
@@ -163,12 +161,21 @@ section {
 
 // !ASIDE
 .box {
-	padding-top : 10px;
-	border-top : solid 8px #eee;
-	//border-bottom : solid 8px $abuabumuda ;
-	background : $putih;	
+	// background : $putih;	
 	overflow : hidden;
 	margin-bottom : 30px;
+	position: relative;
+
+	&:after{
+		position: absolute;
+		content: "";
+		background: #ccc;
+		width: 100%;
+		height: 8px;
+		display: block;
+		top: 5px;
+		z-index: -1;
+	}
 	&#testi{
 		background: image-url('quote.png') 0px 20px no-repeat;
 		p{
@@ -188,38 +195,26 @@ section {
 		}
 		
 	}
-	article {
-		margin : 0;
+	section{
 		display: block;
-
-		// padding-bottom : 10px;ss		
-		// float: left;
-    	// overflow: hidden;
-
-		h4 {
-			color: $merahtua;
-			// margin:20px 0 5px 0; 
-			float: left;
-			//position : absolute;
-			display: block;
-		}
-	    
-		p {
-			margin-bottom: 10px ;
-			width: 100%;
-			float: left;
-			display: block;
-		}
+		clear:both;
 	}
+
     
     h2 {
-    	top : -6px;
+    	position: relative;
+    	float: left;
         padding-right : 10px;
     	color: $hijautua;
     	display: block;
-    	position: absolute;
     	background : $putih;
-    	float: left;
+    	// @include pie-clearfix;
+    	&:after{
+    		clear: both;
+    		content:"";
+    		display: block;
+    		margin-bottom: 5px;
+    	}
     }
 
     a {
