@@ -533,36 +533,37 @@ p {
 
 /* line 3, ../scss/style/_main.scss */
 header {
+  background: transparent url('../img/top-bg.png?1422497479') center right no-repeat;
   padding: 15px 0;
 }
-/* line 5, ../scss/style/_main.scss */
+/* line 6, ../scss/style/_main.scss */
 header img {
   float: left;
   height: 70px;
   margin-right: 15px;
 }
-/* line 10, ../scss/style/_main.scss */
+/* line 11, ../scss/style/_main.scss */
 header h1 {
   color: #444;
   font-size: 17px;
 }
-/* line 13, ../scss/style/_main.scss */
+/* line 14, ../scss/style/_main.scss */
 header h1 span {
   display: block;
   color: #3a9c53;
   font-size: 30px;
 }
-/* line 19, ../scss/style/_main.scss */
+/* line 20, ../scss/style/_main.scss */
 header h3 {
   color: #a12a2a;
   font-style: italic;
 }
 
-/* line 25, ../scss/style/_main.scss */
+/* line 26, ../scss/style/_main.scss */
 #menu-icon {
   margin: 25px 0;
 }
-/* line 28, ../scss/style/_main.scss */
+/* line 29, ../scss/style/_main.scss */
 #menu-icon a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -574,7 +575,7 @@ header h3 {
   background: #6db025;
   padding: 10px 5px 40px 5px;
 }
-/* line 35, ../scss/style/_main.scss */
+/* line 36, ../scss/style/_main.scss */
 #menu-icon a span {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -587,30 +588,30 @@ header h3 {
   padding: 10px;
   background: #3a9c53;
 }
-/* line 44, ../scss/style/_main.scss */
+/* line 45, ../scss/style/_main.scss */
 #menu-icon a:hover {
   background: #3a9c53;
 }
-/* line 46, ../scss/style/_main.scss */
+/* line 47, ../scss/style/_main.scss */
 #menu-icon a:hover span {
   background: #6db025;
 }
 
-/* line 57, ../scss/style/_main.scss */
+/* line 58, ../scss/style/_main.scss */
 nav {
   color: #ffffff;
   background: #3a9c53;
   border-bottom: #ec8621 solid 5px;
 }
-/* line 62, ../scss/style/_main.scss */
+/* line 63, ../scss/style/_main.scss */
 nav ul {
   display: block;
 }
-/* line 64, ../scss/style/_main.scss */
+/* line 65, ../scss/style/_main.scss */
 nav ul li {
   list-style: none;
 }
-/* line 67, ../scss/style/_main.scss */
+/* line 68, ../scss/style/_main.scss */
 nav ul li a {
   color: #ffffff;
   padding: 15px 10px;
@@ -619,7 +620,7 @@ nav ul li a {
   float: left;
   font-size: 13px;
 }
-/* line 76, ../scss/style/_main.scss */
+/* line 77, ../scss/style/_main.scss */
 nav ul li a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -627,23 +628,23 @@ nav ul li a:hover {
   transition-duration: 0.5s;
   background: #ec8621;
 }
-/* line 81, ../scss/style/_main.scss */
+/* line 82, ../scss/style/_main.scss */
 nav ul li.kanan {
   float: right;
   padding: 10px 0;
 }
-/* line 84, ../scss/style/_main.scss */
+/* line 85, ../scss/style/_main.scss */
 nav ul li.kanan input {
   padding: 10px 0;
   border: none;
   padding: 5px;
   width: 200px;
 }
-/* line 91, ../scss/style/_main.scss */
+/* line 92, ../scss/style/_main.scss */
 nav ul li form {
   position: relative;
 }
-/* line 93, ../scss/style/_main.scss */
+/* line 94, ../scss/style/_main.scss */
 nav ul li form button {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -658,12 +659,12 @@ nav ul li form button {
   background: #ec8621;
   padding: 0;
 }
-/* line 103, ../scss/style/_main.scss */
+/* line 104, ../scss/style/_main.scss */
 nav ul li form button:hover {
   background: #e07913;
 }
 
-/* line 115, ../scss/style/_main.scss */
+/* line 116, ../scss/style/_main.scss */
 section img.thumb {
   float: left;
   display: block;
@@ -671,37 +672,37 @@ section img.thumb {
   height: 150px;
   margin: 0 15px 15px 0;
 }
-/* line 124, ../scss/style/_main.scss */
+/* line 125, ../scss/style/_main.scss */
 section article {
   overflow: hidden;
   margin-bottom: 20px;
   border-bottom: dashed 1px #e1e1e1;
 }
-/* line 129, ../scss/style/_main.scss */
+/* line 130, ../scss/style/_main.scss */
 section article p {
   margin: 15px 0;
 }
-/* line 134, ../scss/style/_main.scss */
+/* line 135, ../scss/style/_main.scss */
 section article h2.judul-berita a {
   margin: 0;
   color: #3a9c53;
   font-size: 1em;
 }
-/* line 139, ../scss/style/_main.scss */
+/* line 140, ../scss/style/_main.scss */
 section article h2.judul-berita a:hover {
   text-decoration: underline;
 }
-/* line 145, ../scss/style/_main.scss */
+/* line 146, ../scss/style/_main.scss */
 section article h4 {
   color: #727272;
   margin: 0;
   font-weight: normal;
 }
-/* line 151, ../scss/style/_main.scss */
+/* line 152, ../scss/style/_main.scss */
 section article a {
   margin-bottom: 10px;
 }
-/* line 153, ../scss/style/_main.scss */
+/* line 154, ../scss/style/_main.scss */
 section article a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -717,13 +718,13 @@ section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 163, ../scss/style/_main.scss */
+/* line 164, ../scss/style/_main.scss */
 .box {
   overflow: hidden;
   margin-bottom: 30px;
   position: relative;
 }
-/* line 169, ../scss/style/_main.scss */
+/* line 170, ../scss/style/_main.scss */
 .box:after {
   position: absolute;
   content: "";
@@ -734,33 +735,33 @@ section article a.tombol:hover {
   top: 5px;
   z-index: -1;
 }
-/* line 179, ../scss/style/_main.scss */
+/* line 180, ../scss/style/_main.scss */
 .box#testi {
   background: url('../img/quote.png?1419182574') 0px 20px no-repeat;
 }
-/* line 181, ../scss/style/_main.scss */
+/* line 182, ../scss/style/_main.scss */
 .box#testi p {
   text-align: left;
   font-style: italic;
   margin-bottom: 10px;
 }
-/* line 185, ../scss/style/_main.scss */
+/* line 186, ../scss/style/_main.scss */
 .box#testi p span {
   display: block;
   font-weight: bold;
   font-style: normal;
   color: #a12a2a;
 }
-/* line 193, ../scss/style/_main.scss */
+/* line 194, ../scss/style/_main.scss */
 .box#testi a {
   font-weight: normal;
 }
-/* line 198, ../scss/style/_main.scss */
+/* line 199, ../scss/style/_main.scss */
 .box section {
   display: block;
   clear: both;
 }
-/* line 204, ../scss/style/_main.scss */
+/* line 205, ../scss/style/_main.scss */
 .box h2 {
   position: relative;
   float: left;
@@ -769,50 +770,50 @@ section article a.tombol:hover {
   display: block;
   background: #ffffff;
 }
-/* line 212, ../scss/style/_main.scss */
+/* line 213, ../scss/style/_main.scss */
 .box h2:after {
   clear: both;
   content: "";
   display: block;
   margin-bottom: 5px;
 }
-/* line 220, ../scss/style/_main.scss */
+/* line 221, ../scss/style/_main.scss */
 .box a {
   color: #3a9c53;
   font-weight: bold;
   float: right;
 }
-/* line 227, ../scss/style/_main.scss */
+/* line 228, ../scss/style/_main.scss */
 .box a:hover {
   text-decoration: underline;
 }
-/* line 232, ../scss/style/_main.scss */
+/* line 233, ../scss/style/_main.scss */
 .box table {
   color: #444;
   font-weight: normal;
   font-style: 14px;
 }
 
-/* line 241, ../scss/style/_main.scss */
+/* line 242, ../scss/style/_main.scss */
 #footeratas {
   padding: 20px 0;
   color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 247, ../scss/style/_main.scss */
+/* line 248, ../scss/style/_main.scss */
 #footeratas [class*="zeen"] {
   -moz-box-shadow: 1px 0 0 #444;
   -webkit-box-shadow: 1px 0 0 #444;
   box-shadow: 1px 0 0 #444;
 }
-/* line 249, ../scss/style/_main.scss */
+/* line 250, ../scss/style/_main.scss */
 #footeratas [class*="zeen"]:last-child {
   -moz-box-shadow: 0 0 0 #ccc;
   -webkit-box-shadow: 0 0 0 #ccc;
   box-shadow: 0 0 0 #ccc;
 }
-/* line 255, ../scss/style/_main.scss */
+/* line 256, ../scss/style/_main.scss */
 #footeratas li a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -822,45 +823,45 @@ section article a.tombol:hover {
   line-height: 24px;
   color: #919191;
 }
-/* line 261, ../scss/style/_main.scss */
+/* line 262, ../scss/style/_main.scss */
 #footeratas li a:hover {
   color: #ffffff;
 }
 
-/* line 269, ../scss/style/_main.scss */
+/* line 270, ../scss/style/_main.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
-/* line 273, ../scss/style/_main.scss */
+/* line 274, ../scss/style/_main.scss */
 #footerbawah p {
   font-size: 13px;
 }
 
-/* line 279, ../scss/style/_main.scss */
+/* line 280, ../scss/style/_main.scss */
 #kontak {
   color: #fff;
 }
-/* line 281, ../scss/style/_main.scss */
+/* line 282, ../scss/style/_main.scss */
 #kontak img {
   float: left;
   height: 100px;
   margin-right: 10px;
   margin-bottom: 40px;
 }
-/* line 287, ../scss/style/_main.scss */
+/* line 288, ../scss/style/_main.scss */
 #kontak h2 {
   font-size: 13px;
   color: #919191;
   margin-bottom: 5px;
 }
-/* line 293, ../scss/style/_main.scss */
+/* line 294, ../scss/style/_main.scss */
 #kontak h1 {
   font-size: 27px;
   margin-bottom: 15px;
 }
-/* line 297, ../scss/style/_main.scss */
+/* line 298, ../scss/style/_main.scss */
 #kontak p {
   font-size: 12px;
   color: #919191;
