@@ -12,7 +12,6 @@ h1,h2,h3,h4,a,ul,li,p {
 	// text-decoration: none;
 }
 
-
 h1,h2,h3 {
 	//letter-spacing : -1px;
 }
@@ -29,6 +28,23 @@ h4 {
 	font-size : 13px;
 }
 
+
+nav {
+	
+
+}
+
+nav {
+	ul {
+		li > a {
+			display: block;
+			padding: 10px 50px 10px 10px ; 
+		}
+		
+	}	
+}
+
+
 article { 
 	h2 {
 		letter-spacing : -0.5px;		
@@ -39,7 +55,7 @@ a {
 	color : $putih;
 	font-size: 13px;
 	text-decoration : none;
-	// display : block;
+	display : block;
 }
 
 li {
@@ -48,6 +64,8 @@ li {
 
 ul, li {
 display : block;	
+// margin : 0;
+// padding : 0;
 }
 
 p {

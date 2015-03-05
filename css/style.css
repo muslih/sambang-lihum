@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../usr/local/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../usr/local/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -390,88 +390,95 @@ h1, h2, h3, h4, a, ul, li, p {
   display: block;
 }
 
-/* line 20, ../scss/style/_general.scss */
+/* line 19, ../scss/style/_general.scss */
 h2 {
   font-size: 18px;
 }
 
-/* line 24, ../scss/style/_general.scss */
+/* line 23, ../scss/style/_general.scss */
 h3 {
   font-size: 16px;
 }
 
-/* line 28, ../scss/style/_general.scss */
+/* line 27, ../scss/style/_general.scss */
 h4 {
   font-size: 13px;
 }
 
-/* line 33, ../scss/style/_general.scss */
+/* line 39, ../scss/style/_general.scss */
+nav ul li > a {
+  display: block;
+  padding: 10px 50px 10px 10px;
+}
+
+/* line 49, ../scss/style/_general.scss */
 article h2 {
   letter-spacing: -0.5px;
 }
 
-/* line 38, ../scss/style/_general.scss */
+/* line 54, ../scss/style/_general.scss */
 a {
   color: #ffffff;
   font-size: 13px;
   text-decoration: none;
+  display: block;
 }
 
-/* line 45, ../scss/style/_general.scss */
+/* line 61, ../scss/style/_general.scss */
 li {
   list-style: none;
 }
 
-/* line 49, ../scss/style/_general.scss */
+/* line 65, ../scss/style/_general.scss */
 ul, li {
   display: block;
 }
 
-/* line 53, ../scss/style/_general.scss */
+/* line 71, ../scss/style/_general.scss */
 p {
   text-align: justify;
   font-size: 14px;
   line-height: 1.5em;
 }
 
-/* line 61, ../scss/style/_general.scss */
+/* line 79, ../scss/style/_general.scss */
 .kotak-satu {
   background: #ffffff;
   padding: 0 0 10px 0;
   overflow: hidden;
   display: block;
 }
-/* line 22, ../scss/helper/_mixin.scss */
+/* line 28, ../scss/helper/_mixin.scss */
 .kotak-satu ul {
   margin-top: 10px;
 }
-/* line 24, ../scss/helper/_mixin.scss */
+/* line 30, ../scss/helper/_mixin.scss */
 .kotak-satu ul li {
   line-height: 20px;
 }
-/* line 26, ../scss/helper/_mixin.scss */
+/* line 32, ../scss/helper/_mixin.scss */
 .kotak-satu ul li a {
   color: #444;
   display: inline-table;
 }
-/* line 63, ../scss/style/_general.scss */
+/* line 81, ../scss/style/_general.scss */
 .kotak-satu h2 {
   color: #ffffff;
   font-size: 14px;
   padding: 5px 10px;
   background: #3a9c53;
 }
-/* line 70, ../scss/style/_general.scss */
+/* line 88, ../scss/style/_general.scss */
 .kotak-satu li {
   padding-left: 10px;
   list-style-type: square !important;
 }
-/* line 74, ../scss/style/_general.scss */
+/* line 92, ../scss/style/_general.scss */
 .kotak-satu li a:hover {
   color: #3a9c53;
 }
 
-/* line 79, ../scss/style/_general.scss */
+/* line 97, ../scss/style/_general.scss */
 .kotak-dua {
   background: #fafafa;
   padding: 10px;
@@ -480,27 +487,27 @@ p {
   overflow: hidden;
   border: solid 1px #ededed;
 }
-/* line 22, ../scss/helper/_mixin.scss */
+/* line 28, ../scss/helper/_mixin.scss */
 .kotak-dua ul {
   margin-top: 10px;
 }
-/* line 24, ../scss/helper/_mixin.scss */
+/* line 30, ../scss/helper/_mixin.scss */
 .kotak-dua ul li {
   line-height: 20px;
 }
-/* line 26, ../scss/helper/_mixin.scss */
+/* line 32, ../scss/helper/_mixin.scss */
 .kotak-dua ul li a {
   color: #444;
   display: inline-table;
 }
-/* line 85, ../scss/style/_general.scss */
+/* line 103, ../scss/style/_general.scss */
 .kotak-dua h2 {
   color: #3a9c53;
   font-size: 14px;
   padding-bottom: 5px;
   border-bottom: solid #ec8621 1px;
 }
-/* line 93, ../scss/style/_general.scss */
+/* line 111, ../scss/style/_general.scss */
 .kotak-dua a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -511,29 +518,29 @@ p {
   font-style: normal;
   float: right;
 }
-/* line 11, ../scss/helper/_mixin.scss */
+/* line 17, ../scss/helper/_mixin.scss */
 .kotak-dua a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 99, ../scss/style/_general.scss */
+/* line 117, ../scss/style/_general.scss */
 #polling {
   margin-bottom: 15px;
 }
-/* line 100, ../scss/style/_general.scss */
+/* line 118, ../scss/style/_general.scss */
 #polling h4 {
   font-weight: normal;
   line-height: 20px;
   margin: 10px 0;
 }
-/* line 106, ../scss/style/_general.scss */
+/* line 124, ../scss/style/_general.scss */
 #polling input[type=radio] {
   margin-bottom: 10px;
 }
 
 /* line 3, ../scss/style/_main.scss */
 header {
-  background: transparent url('../img/top-bg.png?1422497479') center right no-repeat;
+  background: transparent url('../img/top-bg.png?1425563066') center right no-repeat;
   padding: 15px 0;
 }
 /* line 6, ../scss/style/_main.scss */
@@ -604,67 +611,64 @@ nav {
   border-bottom: #ec8621 solid 5px;
 }
 /* line 63, ../scss/style/_main.scss */
-nav ul {
-  display: block;
-}
-/* line 65, ../scss/style/_main.scss */
-nav ul li {
-  list-style: none;
-}
-/* line 68, ../scss/style/_main.scss */
-nav ul li a {
-  color: #ffffff;
+nav a {
   padding: 15px 10px;
-  text-decoration: none;
-  display: inline-table;
-  float: left;
-  font-size: 13px;
+  display: block;
+  color: #ffffff;
+  background: #3a9c53;
 }
-/* line 77, ../scss/style/_main.scss */
-nav ul li a:hover {
+/* line 69, ../scss/style/_main.scss */
+nav a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   background: #ec8621;
+}
+/* line 76, ../scss/style/_main.scss */
+nav ul:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 /* line 82, ../scss/style/_main.scss */
-nav ul li.kanan {
-  float: right;
-  padding: 10px 0;
+nav ul {
+  z-index: 999;
 }
-/* line 85, ../scss/style/_main.scss */
-nav ul li.kanan input {
-  padding: 10px 0;
-  border: none;
-  padding: 5px;
-  width: 200px;
-}
-/* line 92, ../scss/style/_main.scss */
-nav ul li form {
+/* line 86, ../scss/style/_main.scss */
+nav ul li {
+  float: left;
   position: relative;
+  display: block;
 }
-/* line 94, ../scss/style/_main.scss */
-nav ul li form button {
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+/* line 91, ../scss/style/_main.scss */
+nav ul li:hover > ul {
+  display: block;
+}
+/* line 95, ../scss/style/_main.scss */
+nav ul li ul {
+  border-top: #ec8621 solid 5px;
+  white-space: nowrap;
+  background: #3a9c53;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 25px;
-  height: 25px;
-  border: 0;
-  background: #ec8621;
-  padding: 0;
+  top: 100%;
+  display: none;
+  box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.4);
 }
 /* line 104, ../scss/style/_main.scss */
-nav ul li form button:hover {
-  background: #e07913;
+nav ul li ul li {
+  float: none;
+}
+/* line 107, ../scss/style/_main.scss */
+nav ul li ul li ul {
+  border-top: #ec8621 solid 5px;
+  white-space: nowrap;
+  position: absolute;
+  left: 100%;
+  top: 0;
 }
 
-/* line 116, ../scss/style/_main.scss */
+/* line 125, ../scss/style/_main.scss */
 section img.thumb {
   float: left;
   display: block;
@@ -672,37 +676,37 @@ section img.thumb {
   height: 150px;
   margin: 0 15px 15px 0;
 }
-/* line 125, ../scss/style/_main.scss */
+/* line 134, ../scss/style/_main.scss */
 section article {
   overflow: hidden;
   margin-bottom: 20px;
   border-bottom: dashed 1px #e1e1e1;
 }
-/* line 130, ../scss/style/_main.scss */
+/* line 139, ../scss/style/_main.scss */
 section article p {
   margin: 15px 0;
 }
-/* line 135, ../scss/style/_main.scss */
+/* line 144, ../scss/style/_main.scss */
 section article h2.judul-berita a {
   margin: 0;
   color: #3a9c53;
   font-size: 1em;
 }
-/* line 140, ../scss/style/_main.scss */
+/* line 149, ../scss/style/_main.scss */
 section article h2.judul-berita a:hover {
   text-decoration: underline;
 }
-/* line 146, ../scss/style/_main.scss */
+/* line 155, ../scss/style/_main.scss */
 section article h4 {
   color: #727272;
   margin: 0;
   font-weight: normal;
 }
-/* line 152, ../scss/style/_main.scss */
+/* line 161, ../scss/style/_main.scss */
 section article a {
   margin-bottom: 10px;
 }
-/* line 154, ../scss/style/_main.scss */
+/* line 163, ../scss/style/_main.scss */
 section article a.tombol {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -713,18 +717,18 @@ section article a.tombol {
   font-style: normal;
   float: right;
 }
-/* line 11, ../scss/helper/_mixin.scss */
+/* line 17, ../scss/helper/_mixin.scss */
 section article a.tombol:hover {
   background: #c96d11;
 }
 
-/* line 164, ../scss/style/_main.scss */
+/* line 173, ../scss/style/_main.scss */
 .box {
   overflow: hidden;
   margin-bottom: 30px;
   position: relative;
 }
-/* line 170, ../scss/style/_main.scss */
+/* line 179, ../scss/style/_main.scss */
 .box:after {
   position: absolute;
   content: "";
@@ -735,33 +739,33 @@ section article a.tombol:hover {
   top: 5px;
   z-index: -1;
 }
-/* line 180, ../scss/style/_main.scss */
+/* line 189, ../scss/style/_main.scss */
 .box#testi {
-  background: url('../img/quote.png?1419182574') 0px 20px no-repeat;
+  background: url('../img/quote.png?1419209667') 0px 20px no-repeat;
 }
-/* line 182, ../scss/style/_main.scss */
+/* line 191, ../scss/style/_main.scss */
 .box#testi p {
   text-align: left;
   font-style: italic;
   margin-bottom: 10px;
 }
-/* line 186, ../scss/style/_main.scss */
+/* line 195, ../scss/style/_main.scss */
 .box#testi p span {
   display: block;
   font-weight: bold;
   font-style: normal;
   color: #a12a2a;
 }
-/* line 194, ../scss/style/_main.scss */
+/* line 203, ../scss/style/_main.scss */
 .box#testi a {
   font-weight: normal;
 }
-/* line 199, ../scss/style/_main.scss */
+/* line 208, ../scss/style/_main.scss */
 .box section {
   display: block;
   clear: both;
 }
-/* line 205, ../scss/style/_main.scss */
+/* line 214, ../scss/style/_main.scss */
 .box h2 {
   position: relative;
   float: left;
@@ -770,50 +774,50 @@ section article a.tombol:hover {
   display: block;
   background: #ffffff;
 }
-/* line 213, ../scss/style/_main.scss */
+/* line 222, ../scss/style/_main.scss */
 .box h2:after {
   clear: both;
   content: "";
   display: block;
   margin-bottom: 5px;
 }
-/* line 221, ../scss/style/_main.scss */
+/* line 230, ../scss/style/_main.scss */
 .box a {
   color: #3a9c53;
   font-weight: bold;
   float: right;
 }
-/* line 228, ../scss/style/_main.scss */
+/* line 237, ../scss/style/_main.scss */
 .box a:hover {
   text-decoration: underline;
 }
-/* line 233, ../scss/style/_main.scss */
+/* line 242, ../scss/style/_main.scss */
 .box table {
   color: #444;
   font-weight: normal;
   font-style: 14px;
 }
 
-/* line 242, ../scss/style/_main.scss */
+/* line 251, ../scss/style/_main.scss */
 #footeratas {
   padding: 20px 0;
   color: #e6e6e6;
   background: #2a2a2a;
   margin-top: 20px;
 }
-/* line 248, ../scss/style/_main.scss */
+/* line 257, ../scss/style/_main.scss */
 #footeratas [class*="zeen"] {
   -moz-box-shadow: 1px 0 0 #444;
   -webkit-box-shadow: 1px 0 0 #444;
   box-shadow: 1px 0 0 #444;
 }
-/* line 250, ../scss/style/_main.scss */
+/* line 259, ../scss/style/_main.scss */
 #footeratas [class*="zeen"]:last-child {
   -moz-box-shadow: 0 0 0 #ccc;
   -webkit-box-shadow: 0 0 0 #ccc;
   box-shadow: 0 0 0 #ccc;
 }
-/* line 256, ../scss/style/_main.scss */
+/* line 265, ../scss/style/_main.scss */
 #footeratas li a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -823,45 +827,45 @@ section article a.tombol:hover {
   line-height: 24px;
   color: #919191;
 }
-/* line 262, ../scss/style/_main.scss */
+/* line 271, ../scss/style/_main.scss */
 #footeratas li a:hover {
   color: #ffffff;
 }
 
-/* line 270, ../scss/style/_main.scss */
+/* line 279, ../scss/style/_main.scss */
 #footerbawah {
   background: #6db025;
   padding: 10px 0;
   color: #ffffff;
 }
-/* line 274, ../scss/style/_main.scss */
+/* line 283, ../scss/style/_main.scss */
 #footerbawah p {
   font-size: 13px;
 }
 
-/* line 280, ../scss/style/_main.scss */
+/* line 289, ../scss/style/_main.scss */
 #kontak {
   color: #fff;
 }
-/* line 282, ../scss/style/_main.scss */
+/* line 291, ../scss/style/_main.scss */
 #kontak img {
   float: left;
   height: 100px;
   margin-right: 10px;
   margin-bottom: 40px;
 }
-/* line 288, ../scss/style/_main.scss */
+/* line 297, ../scss/style/_main.scss */
 #kontak h2 {
   font-size: 13px;
   color: #919191;
   margin-bottom: 5px;
 }
-/* line 294, ../scss/style/_main.scss */
+/* line 303, ../scss/style/_main.scss */
 #kontak h1 {
   font-size: 27px;
   margin-bottom: 15px;
 }
-/* line 298, ../scss/style/_main.scss */
+/* line 307, ../scss/style/_main.scss */
 #kontak p {
   font-size: 12px;
   color: #919191;

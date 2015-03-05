@@ -59,55 +59,64 @@ nav {
 	color :$putih;
 	background : $hijautua;
 	border-bottom : $orange solid 5px;
-
-	ul {
+	
+    a {
+		padding: 15px 10px;
 		display: block;
-		li {			
-			// display: inline-table;
-			list-style: none;			
-			a { 
-				// @include transition-duration (0.5s);
-				color : $putih;
-				padding: 15px 10px;
-				text-decoration : none;
-				display: inline-table;
-				float: left;
-				font-size: 13px;
+		color: $putih;
+		background : $hijautua;
 
-				&:hover {
-					@include transition-duration (0.5s);
-					background : $orange;
-				}
+		&:hover {
+			@include transition-duration(0.5s);
+			background : $orange;
+		}
+
+	}
+
+	ul:after {
+		content:" ";
+		display: block;
+		clear:both;
+	}
+	
+	ul {
+		
+		z-index: 999;
+
+		li {
+			float: left;
+			position :relative;
+			display: block;
+
+			&:hover > ul {
+				display: block;
 			}
-			&.kanan{
-				float: right;
-				padding:10px 0;
-				input{
-					padding:10px 0;
-					border:none;
-					padding:5px;
-					width: 200px;
-				}
-			}	
-			form{
-				position: relative;
-				button{
-					@include transition-duration(0.5s);
-					position: absolute;
-					bottom:0;
-					right: 0;
-					width: 25px;
-					height: 25px;
-					border:0;
-					background: $orange ;
-					padding:0;
-					&:hover{
-						background: darken($orange,5%);
+
+			ul {
+				border-top : $orange solid 5px;	
+				white-space: nowrap;	
+				background : $hijautua;
+				position:absolute;
+				top: 100%;
+				display: none;
+				box-shadow: -3px 3px 10px -2px rgba(0,0,0,.4);			
+				
+				li {
+					float:none;
+					
+					ul {
+						border-top : $orange solid 5px;	
+						white-space: nowrap;		
+						position: absolute;
+						left: 100%;
+						top:0;					
 					}
 				}
 			}		
-		}		
+
+		}
 	}
+
 }
 // AKHIR NAVIGASI
 
